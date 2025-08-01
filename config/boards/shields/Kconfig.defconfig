@@ -1,0 +1,6 @@
+if SHIELD_ALLANKEYBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "Allankeyboard"
+
+endif

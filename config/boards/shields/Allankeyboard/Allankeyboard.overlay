@@ -1,0 +1,14 @@
+/ {
+    matrix: key-matrix {
+        compatible = "zmk,matrix";
+
+        row-gpios = <&gpio0 0>, <&gpio0 1>, <&gpio0 2>, <&gpio0 3>,
+                    <&gpio0 4>, <&gpio0 5>, <&gpio0 6>, <&gpio0 7>;
+
+        col-gpios = <&gpio0 9>, <&gpio0 8>, <&gpio0 10>, <&gpio0 16>,
+                    <&gpio0 14>, <&gpio0 15>, <&gpio0 18>, <&gpio0 19>,
+                    <&gpio0 20>, <&gpio0 21>;
+
+        diode-direction = COL2ROW;
+    };
+};
